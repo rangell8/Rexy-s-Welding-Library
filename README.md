@@ -6,10 +6,8 @@ A lightweight Roblox Lua library for teleporting and physics manipulation.
 ## Loading the Library
 
 ```lua
-local GlueLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOU/REPO/main/gluelib.lua"))()
+local GlueLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/rangell8/Rexy-s-Welding-Library/refs/heads/main/Lib"))()
 ```
-
-> Replace `YOU/REPO` with your actual GitHub username and repository name.
 
 ---
 
@@ -72,7 +70,7 @@ GlueLib.glue(hrp, workspace.Part, true)
 
 ```lua
 -- Load the library
-local GlueLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOU/REPO/main/gluelib.lua"))()
+local GlueLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/rangell8/Rexy-s-Welding-Library/refs/heads/main/Lib"))()
 
 local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
 local hrp = character:WaitForChild("HumanoidRootPart")
